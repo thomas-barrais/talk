@@ -1,0 +1,78 @@
+/* header */
+.header {
+  position: relative;
+}
+
+.header nav h1 {
+  float: none;
+  text-align: center;
+}
+
+.header nav ul {
+  float: none;
+}
+
+.header nav ul li {
+  float: none;
+}
+
+.header nav ul li a {
+  padding: 10px;
+  text-align: center;
+}
+
+/* vp */
+
+.vp {
+  min-height: 300px;
+  background: url(../image/fondestp.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.vp-content {
+  padding-top: 50px;
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+/* features */
+
+.feature {
+  float: none;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* where */
+
+.where {
+  padding: 80px 20px 50px 20px;
+  min-height: 120vh;
+  background-color: #c9c9c9;
+}
+
+.where-image {
+  float: none;
+  width: 80%;
+  border: 0px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.where-txt {
+  float: none;
+  width: 100%;
+}
+
+/* contact */
+
+.contact {
+  background-color: #c9c9c9;
+  padding: 50px 0px 50px 0px;
+  min-height: 100vh;
+}
