@@ -36,6 +36,13 @@ a {
   margin: auto;
 }
 
+.separation-white {
+  background-color: #ddd;
+  height: 0.3vh;
+  width: 15vw;
+  margin: auto;
+}
+
 .btn-clear {
   color: #222;
   background-color: white;
@@ -376,6 +383,10 @@ section div form button {
 
 /* les talkers */
 
+.text-reverse {
+  text-align:justify;
+}
+
 .testimonials {
   padding: 5rem 1rem 5rem 1rem;
 }
@@ -403,6 +414,19 @@ section div form button {
 .testimonials-elem-text p i {
   margin: 0.2rem;
 }
+
+.testimonials-elem-text h2 {
+  text-align: center;
+}
+
+.testimonials-elem-text p {
+  text-align: left;
+}
+
+.text-reverse {
+  text-align: right !important;
+}
+
 
 .testimonials-elem-profil p {
   font-weight: 700;
@@ -520,4 +544,36 @@ section div form button {
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* partenaires */
+
+.partners-intro {
+  min-height: 92vh;
+  background: url(../image/charlesdeluvio-AT5vuPoi8vc-unsplash.jpg) center 40%;
+  background-size: cover;
+  text-align: center;
+}
+
+.partners-intro-content h1 {
+  padding-top: 45vh;
+  font-size: 3rem;
+}
+
+.feature3-partner-gros {
+  float:left;
+  width: 33.3%;
+}
+
+.feature3-partner-gros img {
+  height: 50px;
+}
+
+.feature3-partner {
+  float: left;
+  width: 33.3%;
+}
+
+.feature3-partner img {
+  height: 100px;
 }

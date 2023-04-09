@@ -76,3 +76,90 @@
   padding: 50px 0px 50px 0px;
   min-height: 100vh;
 }
+/* testimonials */
+
+.testimonials-elem-text p {
+  text-align: center;
+}
+
+.text-reverse {
+  text-align: center !important;
+}
+
+.vp div ul li a {
+  display: inline-block;
+  padding: 20px;
+}
+
+.testimonials-elem {
+  flex-direction: column;
+}
+
+.testimonials-elem-reverse {
+  flex-direction: column-reverse;
+}
+
+.testimonials-elem-profil-text {
+  text-align: center;
+}
+
+.testimonials-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+  width: 50vw;
+}
+
+.feature1 {
+  float: none;
+  width: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+.feature2img {
+  float: none;
+  width: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+.feature3 {
+  float: none;
+  width: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+.feature4 {
+  float: none;
+  width: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+/* partenaires */
+
+.partners-intro {
+  min-height: 300px;
+  background: url(../image/charlesdeluvio-AT5vuPoi8vc-unsplash.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.partners-intro-content {
+  padding-top: 50px;
+}
+
+.partners-intro-content h1 {
+  padding-top: 20px;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.separation {
+  background-color: #ddd;
+}
+
+.feature3-partner-gros img {
+  height: 25px;
+}
+
+.feature3-partner img {
+  height: 50px;
+}
