@@ -213,16 +213,16 @@ a {
   margin-left: 30vw;
 }
 
-/* features 2 */
+/* features contact */
 
-.features2 {
+.features-contact {
   overflow: auto;
   padding: 50px 20px 50px 20px;
   text-align: center;
   background-color: #e62b1e;
 }
 
-.feature2 {
+.feature-contact {
   float:left;
   width: 33.3%;
 }
@@ -356,13 +356,12 @@ section div form button {
 }
 
 .names {
-  min-height: 200px;
   background-color: #e62b1e;
   color: white;
 }
 
 .names div h2 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -417,3 +416,108 @@ section div form button {
   margin-bottom: 0.5rem;
 }
 
+/* team */
+
+.container-team {
+  max-width: 1300px;
+  display: block;
+  margin: auto;
+}
+
+.feature1 img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.features1 {
+  overflow: auto;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  width: 100%;
+}
+
+.feature1 {
+  float:left;
+  width: 100%;
+}
+
+.feature2img img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.features2img {
+  overflow: auto;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  width: 100%;
+}
+
+.feature2img {
+  float:left;
+  width: 50%;
+}
+
+.feature3 img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.features3 {
+  overflow: auto;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+}
+
+.feature3 {
+  float:left;
+  width: 33.3%;
+}
+
+.feature4 img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.features4 {
+  overflow: auto;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  width: 100%;
+}
+
+.features4-begin {
+  overflow: auto;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  width: 100%;
+}
+
+.feature4 {
+  float:left;
+  width: 25%;
+}
+
+.mar50 {
+  margin-bottom: 50px;
+}
+
+.bgimag {
+  background-image: url(/image/1571584901934.jpg);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
