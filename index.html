@@ -9,7 +9,7 @@
     href="./css/style.css">
   <link 
     rel="stylesheet" 
-    media="only screen and (max-width:500px)"
+    media="only screen and (max-width:800px)"
     href="css/style_mobile.css">
   <link 
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" 
@@ -22,7 +22,44 @@
   <title>TEDxESTP PARIS | Acceuil</title>
 </head>
 <body>
-  <header class="header">
+  <nav class="navbar">  
+    <div class="logo">
+      <h1>
+        <a href="00_index.html">TEDxESTP PARIS</a>
+      </h1>
+    </div>
+    <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="sousnavbar">
+          <a href="01_speakers.html">Speakers</a>
+          <ul class="dropdown">
+            <li><a href="01_speakers.html#2023">Speakers 2023</a></li>
+            <li><a href="01_speakers.html#2022">Speakers 2022</a></li>
+            <li><a href="01_speakers.html#2020">Speakers 2020</a></li>
+            <li><a href="01_speakers.html#2019">Speakers 2019</a></li> 
+            <li><a href="01_speakers.html#2018">Speakers 2018</a></li>
+          </ul>
+        </li>
+        <li class="sousnavbar">
+          <a href="02_team.html">Team</a>
+          <ul class="dropdown">
+            <li><a href="02_team.html#2023">La Team 2023</a></li>
+            <li><a href="02_team.html#2022">La Team 2022</a></li>
+            <li><a href="02_team.html#2020">La Team 2020</a></li>
+            <li><a href="02_team.html#2019">La Team 2019</a></li> 
+            <li><a href="02_team.html#2018">La Team 2018</a></li>
+          </ul>
+        </li>
+        <li><a href="03_partenaires.html">Partners</a></li>
+        <li><a href="04_nous_trouver.html">where</a></li>
+        <li><a href="#contact">Contact</a></li>        
+      </div>
+    </ul>
+  </nav>
+  <!-- <header class="header">
     <nav>
       <h1>
         <a href="00_index.html">TEDxESTP PARIS</a>
@@ -36,7 +73,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </header>
+  </header> -->
   <section class="vp">
     <div class="vp-content">
       <h1>L'(in)connue</h1>
